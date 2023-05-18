@@ -44,7 +44,7 @@ build {
         destination = "/tmp/cocktails.service"
     }
 
-        provisioner "shell" {
+    provisioner "shell" {
         script = "./app.sh"
     }
 }
